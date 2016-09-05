@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <item android:title="Microphone"
+        app:showAsAction="always"
+        android:icon="@drawable/microphone" />
+    <item android:title="Call"
+        app:showAsAction="always"
+        android:icon="@drawable/phone" />
+    <item android:title="Check"
+        app:showAsAction="always"
+        android:icon="@drawable/checkmark_24" />
+    <item android:title="Contacts"
+        app:showAsAction="never" />
+    <item android:title="Settings"
+        app:showAsAction="never" />
+    <item android:title="Status"
+        app:showAsAction="never" />
+</menu>
